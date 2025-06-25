@@ -1,2 +1,15 @@
 手动阀撒打发
 pr 合并
+# 进入项目目录
+cd your-project/
+
+# 配置LFS跟踪特定类型的文件（例如：.mp4、.zip、.pdf等）
+git lfs track "*.mp4"
+git lfs track "*.zip"
+git lfs track "*.pdf"
+
+# 或者跟踪特定文件名
+git lfs track "data/big_file.zip"
+
+# 查看已跟踪的文件
+git lfs track
