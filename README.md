@@ -1,1 +1,1 @@
-README.ZN.md
+core/README.ZN.md
